@@ -1,0 +1,39 @@
+title: Stackbit Fjord Theme
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+header:
+  title: Paula Santamaría
+  tagline: "Passionate about creating stuff. \r\nGamer, digital artist and guitarist on my free time.\r\n"
+  bg_img: images/header-bg.jpg
+  has_nav: true
+  has_social: true
+footer:
+  content: '&copy; All rights reserved.'
+  links:
+    - text: Made with Stackbit
+      url: 'https://www.stackbit.com'
+      new_window: true
+palette: yellow
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ssg-build.sh
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js

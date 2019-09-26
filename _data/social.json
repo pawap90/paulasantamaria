@@ -1,0 +1,18 @@
+{
+    "links": [
+        {
+            "type": "twitter",
+            "title": "Twitter",
+            "icon": "fa-twitter",
+            "url": "https://twitter.com/pauxdsantamaria"
+        },
+        null,
+        {
+            "type": "github",
+            "title": "GitHub",
+            "icon": "fa-github",
+            "url": "https://github.com/pawap90"
+        },
+        null
+    ]
+}
