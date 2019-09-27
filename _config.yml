@@ -1,4 +1,4 @@
-title: Stackbit Fjord Theme
+title: Paula Santamaría - Blog
 baseurl: /
 permalink: '/:title/'
 collections:
@@ -6,7 +6,7 @@ collections:
     permalink: '/posts/:title/'
 header:
   title: Paula Santamaría
-  tagline: "Passionate about creating stuff. \r\nGamer, digital artist and guitarist on my free time.\r\n"
+  tagline: "Software developer. \r\nPassionate about creating stuff. \r\nGamer, digital artist and guitarist on my free time.\r\n"
   bg_img: images/header-bg.jpg
   has_nav: true
   has_social: true

@@ -13,6 +13,13 @@
             "icon": "fa-github",
             "url": "https://github.com/pawap90"
         },
+        null,
+        {
+            "type": "instagram",
+            "title": "Instagram",
+            "icon": "fa-instagram",
+            "url": "https://www.instagram.com/pau.codes"
+        },
         null
     ]
 }
