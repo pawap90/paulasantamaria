@@ -9,8 +9,12 @@ menus:
 layout: links
 ---
 
-- [**My blog**: dev.to/paulasantamaria](dev.to/paulasantamaria/)  <br/>Where I write about software development, good practices and entrepreneurship.
+- [**My blog**: dev.to/paulasantamaria](https://dev.to/paulasantamaria/)  <br/>Where I write about software development, good practices and entrepreneurship.
 
-- [**Twitter**: twitter/pauxdsantamaria](twitter/pauxdsantamaria/) <br/>The platform where I'm most active this days. I tweet about my work and life in general. I also share interesting tech articles and tools.
+- [**My site**: paulasantamaria.com](https://paulasantamaria.com/)  <br/>All there is to know about my work.
 
-- [**Instagram**: instagram/pau.codes](instagram/pau.codes) <br/>Pics of my dog, laptop and summaries of my articles.
+- [**Twitter**: twitter/pauxdsantamaria](https://twitter.com/pauxdsantamaria/) <br/>The platform where I'm most active this days. I tweet about my work and life in general. I also share interesting tech articles and tools.
+
+- [**GitHub**: github.com/pawap90](https://github.com/pawap90/) <br/>The platform where I'm most active this days. I tweet about my work and life in general. I also share interesting tech articles and tools.
+
+- [**Instagram**: instagram/pau.codes](https://instagram.com/pau.codes) <br/>Pics of my dog, laptop and summaries of my articles.
