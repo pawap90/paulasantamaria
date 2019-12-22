@@ -12,7 +12,10 @@
   <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
   {% endif %}
   {% assign tagline_is_not_empty = site.header.tagline | is_not_empty %}
+  
+  {% if page.layout != 'links' %}
   {% if tagline_is_not_empty %}
   <p class="site-description">{{ site.header.tagline }}</p>
+  {% endif %}
   {% endif %}
 </div><!-- .site-branding -->

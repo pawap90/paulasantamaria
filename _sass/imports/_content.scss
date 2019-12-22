@@ -163,3 +163,15 @@
     font-size: 14px;
   }
 }
+
+// ---- Links
+
+.links ul {
+  list-style: none;
+
+  li a {
+    font-size: 1.5em;
+    font-family: _font(secondary);
+    color: _palette(secondary);
+  }
+}
