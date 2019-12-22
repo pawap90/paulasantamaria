@@ -101,6 +101,10 @@
   color: _palette(border);
 }
 
+.site-nav-inside .social-links {
+  display: none;
+}
+
 .social-links {
   max-width: 240px;
   margin: auto auto 0;
