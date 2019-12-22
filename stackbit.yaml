@@ -374,6 +374,22 @@ models:
         name: menus
         label: Contact Menus
         description: Which menus should this page show up in
+  projects:
+    type: page
+    label: Projects
+    template: projects
+    file: projects.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+        required: true
+      - type: page_menus
+        name: menus
+        label: Home Menus
+        description: Which menus should this page show up in
   page:
     type: page
     label: Page

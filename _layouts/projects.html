@@ -1,0 +1,48 @@
+---
+layout: body
+---
+
+{% include header.html site=site page=page img_path=site.header.bg_img %}
+
+<div id="content" class="site-content">
+  <main id="main" class="site-main inner">
+
+    <div class="post-feed">
+      {% for project in page.project_list %}
+      <article class="post">
+        {% assign thumb_img_path_is_not_empty = project[1].thumb_img_path | is_not_empty %}
+        {% if thumb_img_path_is_not_empty %}
+        <a class="post-thumbnail" href="{{ project[1].url }}">
+          <img class="thumbnail" src="{{ project[1].thumb_img_path | relative_url }}" alt="{{ project[1].title }}" />
+        </a>
+        {% endif %}
+        <header class="post-header">
+          <h2 class="post-title"><a href="{{ project[1].url }}" rel="bookmark">{{ project[1].title }}</a></h2>
+        </header><!-- .post-header -->
+        <div class="post-content">
+          <p>{{ project[1].description }}</p>
+        </div><!-- .post-content -->
+        <p class="read-more">
+          <a class="read-more-link" href="{{ project[1].url}}">More info <span class="icon-arrow-right"
+              aria-hidden="true"></span></a>
+        </p>
+      </article><!-- .post -->
+      {% endfor %}
+    </div><!-- .post-feed -->
+
+    <!-- Pagination TBD -->
+    <!--
+      <nav class="pagination">
+        <div class="nav-links">
+          <a class="older-posts button" href="#"><span class="icon-arrow-left" aria-hidden="true"></span><span class="screen-reader-text">Older posts</span></a>
+          <span class="page-number">Page X of Y</span>
+          <a class="newer-posts button" href="#"><span class="screen-reader-text">Newer posts</span><span class="icon-arrow-right" aria-hidden="true"></span></a>
+        </div>
+      </nav>
+      -->
+
+  </main><!-- .site-main -->
+
+  {% include footer.html %}
+
+</div><!-- .site-content -->
