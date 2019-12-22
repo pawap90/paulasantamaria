@@ -90,6 +90,8 @@
 
 .menu-item {
   padding: 0.5em 2em 0.5em 0;
+  color: _palette(secondary);
+  font-weight: normal;
 
   a {
     border: 0;
@@ -101,6 +103,10 @@
 .menu-item a:hover,
 .current-menu-item a {
   color: _palette(border);
+}
+
+.current-menu-item a {
+  font-weight: bold;
 }
 
 .site-nav-inside {
@@ -293,6 +299,7 @@
 
   .menu-item {
     padding: 0;
+    color: _palette(primary);
 
     a {
       display: block;
