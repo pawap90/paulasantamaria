@@ -15,11 +15,17 @@
         },
         null,
         {
+            "type": "linkedin",
+            "title": "LinkedIn",
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/paula-santamaria-1990/?locale=en_US"
+        },
+        null,
+        {
             "type": "instagram",
             "title": "Instagram",
             "icon": "fa-instagram",
             "url": "https://www.instagram.com/pau.codes"
-        },
-        null
+        }
     ]
 }
