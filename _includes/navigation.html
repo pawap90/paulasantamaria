@@ -4,9 +4,11 @@
     <div class="site-nav-inside">
       <ul class="menu">
         {% for item in site.menus.main %}
+        {% if item.ignore_menu == false %}
         <li class="menu-item {% if page.url == item.url %} current-menu-item{% endif %}">
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         </li>
+        {% endif %}
         {% endfor %}
       </ul><!-- .menu -->
       {% include social.html %}

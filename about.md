@@ -5,6 +5,7 @@ menus:
   main:
     title: About me
     weight: 3
+    ignore_menu: false
 layout: about
 ---
 I began building software in high school, as a self-taught freelance web developer, mostly with Flash and PHP. 

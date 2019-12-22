@@ -5,6 +5,7 @@ menus:
   main:
     title: Contact
     weight: 6
+    ignore_menu: false
 layout: contact
 ---
 
