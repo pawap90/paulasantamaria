@@ -19,14 +19,14 @@ layout: body
             </div>
           </header><!-- .post-header -->
           {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
+          <div class="post-content">
+            <p>{{ post.excerpt }}</p>
+          </div><!-- .post-content -->
           {% if thumb_img_path_is_not_empty %}
           <a class="post-thumbnail" href="{{ post.url | relative_url }}">
             <img class="thumbnail" src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" />
           </a>
           {% endif %}
-          <div class="post-content">
-            <p>{{ post.excerpt }}</p>
-          </div><!-- .post-content -->
           <p class="read-more">
             <a class="read-more-link" href="{{ post.url | relative_url }}">Keep reading <span class="icon-arrow-right" aria-hidden="true"></span></a>
           </p>

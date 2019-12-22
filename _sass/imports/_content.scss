@@ -3,7 +3,11 @@
  * ----------------------------------------------------------------------------
  */
 .post {
-  margin-bottom: 3.33333em;
+  margin-bottom: 1.66667em;
+}
+
+.post-content {
+  margin-top: 0.66667em;
 }
 
 .post-header {
@@ -12,6 +16,7 @@
 
 .post-title {
   margin-bottom: 0.66667rem;
+  font-family: _font(primary);
 
   a {
     border: 0;
@@ -45,6 +50,10 @@
   margin-bottom: 2.5rem;
 }
 
+.read-more {
+  text-align: right;
+}
+
 .read-more-link {
   color: _palette(secondary);
   display: inline-block;
@@ -52,6 +61,8 @@
   font-weight: bold;
   padding: 0.3em 24px 0.3em 0;
   position: relative;
+  right: auto;
+  left: 0;
 
   .icon-arrow-right {
     left: auto;
@@ -66,9 +77,10 @@
 }
 
 .post-feed {
+  font-family: _font(secondary);
+
   .post {
-    border-bottom: 1px dashed _palette(border);
-    padding-bottom: 1.66667em;
+    border-bottom: 1px solid _palette(border);
 
     &:last-child {
       border: 0;
@@ -78,7 +90,7 @@
 
   .post-header,
   .post-thumbnail {
-    margin-bottom: 1.66667em;
+    margin-bottom: 0.66667em;
   }
 
   .post-title {

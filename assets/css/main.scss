@@ -3,7 +3,8 @@
 
 // Font.
 $font: (
-  primary: ("PT Serif", serif)
+  primary: ("PT Serif", serif),
+  secondary: ("Segoe UI", sans-serif)
 );
 
 // Palette.
@@ -12,7 +13,7 @@ $palette: (
   secondary:              darken(#666666, 27%),
   secondary_inverted:     lighten(#666666, 55%),
   meta:                   lighten(#666666, 23%),
-  border:                 lighten(#666666, 38%),
+  border:                 lighten(#666666, 23%),
   bg:                     lighten(#666666, 55%),
   bg_inverted:            darken(#666666, 27%),
   accent:                 #ffd300,
