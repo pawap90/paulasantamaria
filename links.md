@@ -1,8 +1,6 @@
 ---
 title: Links
 img_path: images/header-bg.jpg
-header:
-  tagline: aaa
 menus:
   main:
     title: Links
