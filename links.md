@@ -8,6 +8,9 @@ menus:
     ignore_menu: true
 layout: links
 ---
+- [**Twitch**: @PaulaSantamaria](https://www.twitch.tv/paulasantamaria) <br/>Working on my Game live. Pixel art, coding and playing some indie games!
+
+- [**Instagram**: @pau.codes](https://instagram.com/pau.codes) <br/>Pics of my dog, laptop and summaries of my articles.
 
 - [**Blog**: dev.to/paulasantamaria](https://dev.to/paulasantamaria/)  <br/>Where I write about software development, good practices and entrepreneurship.
 
@@ -19,4 +22,4 @@ layout: links
 
 - [**LinkedIn** @paula-santamaria-1990](https://www.linkedin.com/in/paula-santamaria-1990/?locale=en_US) <br/>Contact me through LinkedIn for professional inquiries.
 
-- [**Instagram**: @pau.codes](https://instagram.com/pau.codes) <br/>Pics of my dog, laptop and summaries of my articles.
+
