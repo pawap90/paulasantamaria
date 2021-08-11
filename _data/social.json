@@ -1,13 +1,6 @@
 {
     "links": [
         {
-            "type": "twitter",
-            "title": "Twitter",
-            "icon": "fa-twitter",
-            "url": "https://twitter.com/pauxdsantamaria"
-        },
-        null,
-        {
             "type": "github",
             "title": "GitHub",
             "icon": "fa-github",
@@ -15,17 +8,31 @@
         },
         null,
         {
-            "type": "linkedin",
-            "title": "LinkedIn",
-            "icon": "fa-linkedin",
-            "url": "https://www.linkedin.com/in/paula-santamaria-1990/?locale=en_US"
-        },
-        null,
-        {
             "type": "instagram",
             "title": "Instagram",
             "icon": "fa-instagram",
             "url": "https://www.instagram.com/pau.codes"
+        },
+        null,
+        {
+            "type": "twitch",
+            "title": "Twitch",
+            "icon": "fa-twitch",
+            "url": "https://www.twitch.tv/paulasantamaria"
+        },
+        null,
+        {
+            "type": "twitter",
+            "title": "Twitter",
+            "icon": "fa-twitter",
+            "url": "https://twitter.com/pauxdsantamaria"
+        },
+        null,
+        {
+            "type": "linkedin",
+            "title": "LinkedIn",
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/paula-santamaria-1990/?locale=en_US"
         }
     ]
 }
