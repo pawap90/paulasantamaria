@@ -7,6 +7,11 @@ menus:
     ignore_menu: false
 layout: projects
 project_list:
+  typeit:
+    title: TypeIt - A VSCode Extension | Typing animations for content creators
+    url: https://typeit.uppernauts.com
+    description: TypeIt is a VSCode extension that retypes your code so you can record it.
+    thumb_img_path: images/projects/typeit.png
   cephhi:
     title: Cephhi - A thoughtful Twitter assistant
     url: https://cephhi.com
